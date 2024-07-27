@@ -9,6 +9,8 @@
     "strict": true,
     "noEmit": true,
 
+    "types": ["node"],
+
       "baseUrl":"./src",
     "paths":{
       "@assets/*":["assets/*"],
