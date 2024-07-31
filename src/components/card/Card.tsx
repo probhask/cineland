@@ -24,6 +24,7 @@ const Card = React.memo(({ data, trending, index, media_type }: Props) => {
       {data?.poster_path ? (
         <img
           src={imageUrl + data?.poster_path}
+          loading="lazy"
           alt=""
           className="h-full w-full"
         />

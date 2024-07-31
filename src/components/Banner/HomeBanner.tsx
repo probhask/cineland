@@ -33,7 +33,7 @@ const HomeBanner = React.memo(() => {
   }, [bannerData, imageUrl, currentImage]);
   return (
     <section className="h-full w-full">
-      <div className="flex max-h-[90vh] min-h-[90vh] overflow-hidden">
+      <div className="flex max-h-[95vh] min-h-[90vh] overflow-hidden lg:min-h-[95vh]">
         {bannerData?.map((data, index) => {
           return (
             <div
