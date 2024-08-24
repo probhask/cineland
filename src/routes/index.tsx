@@ -1,36 +1,63 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "@pages/Home";
-import ExplorePage, { exploreLoader } from "@pages/ExplorePage";
-import DeatailsPage from "@pages/DeatailsPage";
-import SearchPage from "@pages/SearchPage";
-import App from "../App";
+import { exploreLoader } from "@pages/ExplorePage";
+
 import WhishList from "@pages/WhishList";
+import { lazy, Suspense } from "react";
+const App = lazy(() => import("../App"));
+const Home = lazy(() => import("@pages/Home"));
+const ExplorePage = lazy(() => import("@pages/ExplorePage"));
+const DeatailsPage = lazy(() => import("@pages/DeatailsPage"));
+const SearchPage = lazy(() => import("@pages/SearchPage"));
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <Suspense>
+        <App />
+      </Suspense>
+    ),
     children: [
       {
         index: true,
-        element: <Home />,
+        element: (
+          <Suspense>
+            <Home />
+          </Suspense>
+        ),
       },
       {
         path: ":explore",
-        element: <ExplorePage />,
+        element: (
+          <Suspense>
+            <ExplorePage />
+          </Suspense>
+        ),
         loader: exploreLoader,
       },
       {
         path: ":explore/:id",
-        element: <DeatailsPage />,
+        element: (
+          <Suspense>
+            <DeatailsPage />
+          </Suspense>
+        ),
       },
       {
         path: "search",
-        element: <SearchPage />,
+        element: (
+          <Suspense>
+            <SearchPage />
+          </Suspense>
+        ),
       },
       {
         path: "whishlist",
-        element: <WhishList />,
+        element: (
+          <Suspense>
+            <WhishList />
+          </Suspense>
+        ),
       },
     ],
   },
