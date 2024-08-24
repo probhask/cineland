@@ -32,11 +32,8 @@ The project is organized into the following main directories and files:
 - **main.tsx**: The entry point for the React application.
 - **pages/**: Contains route-based components, likely representing different views such as search results, movie details, etc.
 - **routes/**: Manages the routing for the application, connecting URLs to pages.
-- **test.scss**: A stylesheet possibly used for testing.
-- **testData.ts**: Test data used in the application.
 - **types/**: TypeScript type definitions for strong typing.
 - **utils/**: Utility functions for common tasks.
-- **vite-env.d.ts**: Type declarations specific to the Vite environment.
 
 ## Key Features
 
@@ -46,7 +43,8 @@ The project is organized into the following main directories and files:
 
 ## Website Images
 
-`**Home** ![Home2](./website-images/Home2.png)`
+`**Home**`
+`![Home2](./website-images/Home2.png)`
 `**Explore** ![Explore1](./website-images/explore1.png) ![Explore1](./website-images/explore2.png)`
 `**Details page** ![Details](./website-images/detailpage.png)`
 `**Search** ![Search](./website-images/search.png)`
