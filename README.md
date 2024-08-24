@@ -43,12 +43,17 @@ The project is organized into the following main directories and files:
 
 ## Website Images
 
-`**Home**`
-`![Home2](./website-images/Home2.png)`
-`**Explore** ![Explore1](./website-images/explore1.png) ![Explore1](./website-images/explore2.png)`
-`**Details page** ![Details](./website-images/detailpage.png)`
-`**Search** ![Search](./website-images/search.png)`
-`**Wishlist** ![Wishlist](./website-images/wishlist.png)`
+**Home**`
+![Home2](./website-images/Home2.png)
+**Explore**
+![Explore1](./website-images/explore1.png)
+![Explore2](./website-images/explore2.png)
+**Details page**
+![Details](./website-images/detailpage.png)
+**Search**
+![Search](./website-images/search.png)
+**Wishlist**
+![Wishlist](./website-images/wishlist.png)
 
 ## Conclusion
 
