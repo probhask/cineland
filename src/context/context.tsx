@@ -15,7 +15,7 @@ interface ContextDataTypes {
 // create context
 const cineContext = createContext<ContextDataTypes | undefined>(undefined);
 
-// loscatsotrage getWhishList
+// local storage getWhishList
 const getLocalWhishList = (): WhishList[] => {
   const raw = localStorage?.getItem("cineland_whishlist");
   if (raw) {
@@ -77,7 +77,7 @@ export const CineContextProvider = ({ children }: { children: ReactNode }) => {
 const useCineContext = () => {
   const context = useContext(cineContext);
   if (!context) {
-    throw new Error("useExample must be used within an ExampleProvider");
+    throw new Error("useCineContext must be used within CineContextProvider");
   }
   return context;
 };
