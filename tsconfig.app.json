@@ -7,6 +7,7 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "esModuleInterop": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -17,18 +18,18 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    "baseUrl":"./src",
-    "paths":{
-      "@assets/*":["assets/*"],
-      "@components/*":["components/*"],
-      "@features/*":["features/*"],
-      "@hooks/*":["hooks/*"],
-      "@pages/*":["pages/*"],
-      "@types/*":["types/*"],
-      "@utils/*":["utils/*"],
-      "@routes/*":["routes/*"],
-      "@constants/*":["constants/*"],
-      "@context/*":["context/*"]
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@features/*": ["features/*"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"],
+      "@types/*": ["types/*"],
+      "@utils/*": ["utils/*"],
+      "@routes/*": ["routes/*"],
+      "@constants/*": ["constants/*"],
+      "@context/*": ["context/*"]
     },
 
     /* Linting */

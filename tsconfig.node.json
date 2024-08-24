@@ -8,22 +8,23 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "noEmit": true,
+    "esModuleInterop": true,
 
     "types": ["node"],
 
-      "baseUrl":"./src",
-    "paths":{
-      "@assets/*":["assets/*"],
-      "@components/*":["components/*"],
-      "@features/*":["features/*"],
-      "@hooks/*":["hooks/*"],
-      "@pages/*":["pages/*"],
-      "@types/*":["types/*"],
-      "@utils/*":["utils/*"],
-      "@routes/*":["routes/*"],
-      "@constants/*":["constants/*"],
-      "@context/*":["context/*"]
-    },
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@features/*": ["features/*"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"],
+      "@types/*": ["types/*"],
+      "@utils/*": ["utils/*"],
+      "@routes/*": ["routes/*"],
+      "@constants/*": ["constants/*"],
+      "@context/*": ["context/*"]
+    }
   },
   "include": ["vite.config.ts"]
 }
