@@ -27,7 +27,7 @@ const ExplorePage = () => {
 
       setTotalPageNo(response.data.total_pages);
     } catch (error) {
-      isInstanceAxiosError(error, "error fetching exlore page");
+      isInstanceAxiosError(error, "error fetching explore page");
     } finally {
       setLoading(false);
     }
@@ -35,7 +35,7 @@ const ExplorePage = () => {
 
   const handleScroll = () => {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      setPageNo((preve) => preve + 1);
+      setPageNo((prev) => prev + 1);
     }
   };
 
@@ -61,11 +61,11 @@ const ExplorePage = () => {
         </h3>
 
         <div className="grid grid-cols-[repeat(auto-fit,230px)] justify-center gap-6 lg:justify-start">
-          {data.map((exploredata, index) => {
+          {data.map((exploreData, index) => {
             return (
               <Card
-                key={exploredata.id + "explore" + params.explore + index}
-                data={exploredata}
+                key={exploreData.id + "explore" + params.explore + index}
+                data={exploreData}
               />
             );
           })}
