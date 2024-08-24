@@ -7,6 +7,7 @@ CINELAND is a feature-rich platform for discovering movie, TV show, and series s
 - [Deployment on Netlify](#deployment-on-netlify)
 - [Project Structure](#project-structure)
 - [Key Features](#key-features)
+- [Website Images](#website-images)
 - [Conclusion](#conclusion)
 
 ## Deployment on Netlify
@@ -14,6 +15,8 @@ CINELAND is a feature-rich platform for discovering movie, TV show, and series s
 CINELAND is already deployed on Netlify. You can access the live application at the provided Netlify URL.
 
 [website](https://tmbdcineland.netlify.app) - https://tmbdcineland.netlify.app
+
+![Home page](./website-images//Home.png)
 
 ## Project Structure
 
@@ -40,6 +43,14 @@ The project is organized into the following main directories and files:
 - **Search Functionality**: Users can search for movies, TV shows, and series.
 - **Wishlist**: Users can add movies or shows to a wishlist for easy access later.
 - **Detailed Information**: Provides comprehensive details about movies, including cast, trailers, ratings, release dates, and runtime.
+
+## Website Images
+
+`**Home** ![Home2](./website-images/Home2.png)`
+`**Explore** ![Explore1](./website-images/explore1.png) ![Explore1](./website-images/explore2.png)`
+`**Details page** ![Details](./website-images/detailpage.png)`
+`**Search** ![Search](./website-images/search.png)`
+`**Wishlist** ![Wishlist](./website-images/wishlist.png)`
 
 ## Conclusion
 
