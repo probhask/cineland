@@ -7,6 +7,8 @@ CINELAND is a feature-rich platform for discovering movie, TV show, and series s
 - [Deployment on Netlify](#deployment-on-netlify)
 - [Project Structure](#project-structure)
 - [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [API](#api-used)
 - [Website Images](#website-images)
 - [Conclusion](#conclusion)
 
@@ -30,7 +32,7 @@ The project is organized into the following main directories and files:
 - **hooks/**: Custom React hooks.
 - **index.css**: Global CSS for the project.
 - **main.tsx**: The entry point for the React application.
-- **pages/**: Contains route-based components, likely representing different views such as search results, movie details, etc.
+- **pages/**: Contains route-based components, representing different views such as search results, movie details, etc.
 - **routes/**: Manages the routing for the application, connecting URLs to pages.
 - **types/**: TypeScript type definitions for strong typing.
 - **utils/**: Utility functions for common tasks.
@@ -41,17 +43,34 @@ The project is organized into the following main directories and files:
 - **Wishlist**: Users can add movies or shows to a wishlist for easy access later.
 - **Detailed Information**: Provides comprehensive details about movies, including cast, trailers, ratings, release dates, and runtime.
 
+## Technologies Used
+
+CINELAND is built using the following technologies:
+
+- **React**: A JavaScript library for building user interfaces, used for creating the dynamic and responsive UI of CINELAND.
+- **TypeScript**: A statically typed superset of JavaScript, providing type safety and helping catch errors during development.
+- **Vite**: A modern build tool that offers a fast development environment and optimized production builds.
+- **React Router**: For handling routing within the application, allowing users to navigate between different views like search results and movie details.
+
+## API Used
+
+CINELAND uses the [TMDb (The Movie Database) API](https://developer.themoviedb.org) to fetch data related to movies, TV shows, and series. The API provides access to detailed information such as cast, trailers, ratings, release dates, and runtime, enabling CINELAND to deliver comprehensive search results and information to users.
+
 ## Website Images
 
 **Home**`
 ![Home2](./website-images/Home2.png)
+
 **Explore**
 ![Explore1](./website-images/explore1.png)
 ![Explore2](./website-images/explore2.png)
+
 **Details page**
 ![Details](./website-images/detailpage.png)
+
 **Search**
 ![Search](./website-images/search.png)
+
 **Wishlist**
 ![Wishlist](./website-images/wishlist.png)
 
